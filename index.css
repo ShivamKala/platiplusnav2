@@ -1,0 +1,65 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-bg{
+  background: #fff;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%);
+}
+
+.contain{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.left{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.right{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.mydrop{
+  background: #fff !important;
+
+}
+
+.btn:focus,.btn.active:focus {
+  outline: none !important;
+  outline-style: none !important;
+ }
+
+.navbar-brand{
+  color: #757575 !important;
+  font-size: 16px;
+  line-height:normal;
+
+}
+
+.btnfont{
+  font-size: 16px !important;;
+
+}
+.navbar-brand:hover{
+  color:black !important;
+  transition: 0.5sec;
+}
+.btncolour{
+  color:#198754 !important;
+}
+
+.svg{
+  color: #757575;
+}
